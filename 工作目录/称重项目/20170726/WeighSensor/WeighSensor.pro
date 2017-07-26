@@ -411,8 +411,8 @@ LIBS += /usr/local/lib/libopencv_*.so
 
 
 #pdf_PC
-INCLUDEPATH  += /usr/include/poppler/qt4
-LIBS         += -L/usr/lib -lpoppler-qt4
+INCLUDEPATH  += /usr/local/include/include/poppler/qt4
+LIBS         += -L/usr/local/include/lib -lpoppler-qt4
 
 
 unix:!macx: LIBS += -L$$PWD/../../../usr/local/include/lib/ -lpoppler-qt4
