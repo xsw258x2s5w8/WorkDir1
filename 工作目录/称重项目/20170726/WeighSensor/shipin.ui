@@ -362,7 +362,7 @@
   <customwidget>
    <class>ClickedCam</class>
    <extends>QPushButton</extends>
-   <header>clickedcam.h</header>
+   <header location="global">lib/clickedcam.h</header>
   </customwidget>
  </customwidgets>
  <resources>
