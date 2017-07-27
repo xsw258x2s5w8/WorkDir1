@@ -1,0 +1,6 @@
+export POPPLER_QT4_CFLAGS="-I/usr/local/freescale/qt4.8.5/include"
+export POPPLER_QT4_LIBS="-L/usr/local/freescale/qt4.8.5/lib -lQtXml"
+export POPPLER_QT4_TEST_CFLAGS="-I/usr/local/freescale/qt4.8.5/include"
+export POPPLER_QT4_TEST_LIBS="-L/usr/local/freescale/qt4.8.5/lib -lQtTest"
+export MOCQT4="/usr/local/freescale/qt4.8.5/bin/moc"
+PKG_CONFIG_PATH=/opt/poppLib/lib/pkgconfig ./configure --prefix=/opt/poppLib --enable-poppler-qt4 --disable-libopenjpe g--disable-utils --enable-cms=none --disable-poppler-cpp
